@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto ', sans-serif;
+}
+.success {
+  background:#28a745;
+}
+header {
+  margin-top: 6rem;
+}
+
+span, .card-text {
+  color: #707070;
+}
+.card-title {
+  color:#212529;
+}
+h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+h5 {
+  font-weight: 300;
+}
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 2rem;
+}
+li {
+  vertical-align: middle;
+}
+.price-green {
+  color: #28a745;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+.card-link+.card-link {
+    margin-left: 0.4rem;
+}
+.form-control {
+  margin: 0 auto;
+  float: none;
+  width: 80vw;
+}
