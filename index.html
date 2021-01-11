@@ -2,49 +2,149 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Iguana Page</title>
-    <meta name="author" content="Tomas Briones">
-    <meta name="description" content="Descripcion de las iguanas">
-    <meta name="keywords" content="iguana, descripcion">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Cuppon</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS bootstrap v4.5.3-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!--Mi estilo-->
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <nav class="titulo">
-      <h1>IGUANAS</h1>
+    <nav class=" bg-success navbar navbar-expand-lg navbar-dark fixed-top"  >
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="assets/img/logo-white.png" width="150" alt="Logo de Cuppon"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    <header id="inicio" class="hero-section">
-      <img src="assets/img/bg-header.jpg" alt="iguana fondo">
+
+    <header class="container ">
+      <div class="row my-0">
+        <section class="col-md-4" >
+          <div class="card">
+            <img src="assets/img/cupon-1.jpg" class="card-img-top" alt="Plumon Coral Fleence">
+            <div class="card-body">
+              <h5 class="card-title">Plumón Coral Fleence estampado en modelo y tamaño a elección</h5>
+              <p class="card-text my-0 ">Plumones Manolino</p>
+              <span><i class="fas fa-map-marker-alt fa-xs px-1"></i>9191 Avenida Vitacura,Chile</span>
+            </div>
+            <div class="card-body border-top text-right">
+              <a href="#" class="card-link text-secondary">$45.990</a>
+              <a href="#" class="card-link price-green">$22.990</a>
+            </div>
+          </div>
+        </section>
+        <section class="col-md-4" >
+          <div class="card" >
+            <img src="assets/img/cupon-2.jpg" class="card-img-top" alt="Almuerzo completo">
+            <div class="card-body">
+              <h5 class="card-title ">Entrada para para compartir + platos de fondo + postre + bebestibles</h5>
+              <p class="card-text my-0">V for Vegan</p>
+              <span><i class="fas fa-map-marker-alt fa-xs px-1 text-secondary"></i>777 Jesse Pinkman,Chile</span>
+            </div>
+            <div class="card-body border-top text-right">
+              <a href="#" class="card-link text-secondary">$30.990</a>
+              <a href="#" class="card-link price-green">$12.990</a>
+            </div>
+          </div>
+        </section>
+        <section class="col-md-4" >
+          <div class="card" >
+            <img src="assets/img/cupon-3.jpg" class="card-img-top" alt="Evaluacion dental integral">
+            <div class="card-body border-top">
+              <h5 class="card-title">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+              <p class="card-text my-0">Clínica Dental Quijada</p>
+              <span><i class="fas fa-map-marker-alt fa-xs px-1 text-secondary"></i>1342, Blanco Encalada, Chile</span>
+            </div>
+            <div class="card-body border-top text-right">
+              <a href="#" class="card-link text-secondary">$300.000</a>
+              <a href="#" class="card-link price-green">$25.990</a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="row">
+        <section class="col-md-4" >
+          <div class="card" >
+            <img src="assets/img/cupon-4.jpg" class="card-img-top" alt="Colación para dos personas">
+            <div class="card-body border-top">
+              <h5 class="card-title">Colación para 2 personas + postre (no incluye bebidas)</h5>
+              <p class="card-text my-0 ">Suricata almacen</p>
+              <span><i class="fas fa-map-marker-alt fa-xs px-1 text-secondary"></i>1071 Miguel Claro, Chile</span>
+            </div>
+            <div class="card-body border-top text-right">
+              <a href="#" class="card-link text-secondary">$4.200</a>
+              <a href="#" class="card-link price-green">$2.100</a>
+            </div>
+          </div>
+        </section>
+        <section class="col-md-4" >
+          <div class="card" >
+            <img src="assets/img/cupon-5.jpg" class="card-img-top" alt="Dulces">
+            <div class="card-body">
+              <h5 class="card-title">1,2 o 4 Stukids. Elige sucursal</h5>
+              <p class="card-text my-0 ">Sukids Centro de Eventos</p>
+              <span><i class="fas fa-map-marker-alt fa-xs px-1 text-secondary"></i>133 El tranque, Chile</span>
+            </div>
+            <div class="card-body border-top text-right">
+              <a href="#" class="card-link text-secondary">$4.000</a>
+              <a href="#" class="card-link price-green">$2.500</a>
+            </div>
+          </div>
+        </section>
+        <section class="col-md-4" >
+          <div class="card" >
+            <img src="assets/img/cupon-6.jpg" class="card-img-top" alt="Empanadas">
+            <div class="card-body">
+              <h5 class="card-title">San Pedro de Atacama: 1 o 2 noches en alojamiento a elección</h5>
+              <p class="card-text my-0 ">D-Latam Travel</p>
+            </div>
+            <div class="card-body border-top text-right">
+              <a href="#" class="card-link text-secondary">$80.200</a>
+              <a href="#" class="card-link price-green">$44.100</a>
+            </div>
+          </div>
+        </section>
+      </div>
     </header>
-    <section id="descripcion" class="desc-section">
-      <figure class="text-description">
-        <p>La iguana es un reptil perteneciente a la familia Iguanadiae. Su tamaño esta entre los 15cm hasta los 2 metros de largo y puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con tonos verdes y al ir madurando predomina un color grisaceo con crestas o espinas en su espalda</p>
-        <p>La alineación de la iguana va variando según su etapa de vida, pero la mayor parte de sus años son herbivoras. Viven en lugares tropicales con mucha vegetación y es un animal que puede ser domesticado.</p></figure>
-      <figure class="desc-image">
-        <img src="assets/img/iguana-1.jpg" alt="iguana verde">
-      </figure>
+    <section class="container-fluid bg-success py-4">
+      <form>
+        <h4 class="container text-center text-white mb-3">Recibe cupones en tu correo</h4>
+        <input type="text" class="form-control mb-2" placeholder="Nombre">
+        <input type="email" class="form-control" placeholder="Correo Electrónico">
+        <div class="text-center mt-3">
+          <button type="submit" class="btn btn-light"><p class="m-0 px-3 font-weight-bold">Enviar</p></button>
+        </div>
+      </form>
     </section>
-    <section id="caracteristicas" class="carac-section">
-      <h2>CARACTERÍSTICAS</h2>
-      <h3><i class="fas fa-eye"></i><p>Tercer ojo</p></h3>
-      <h3><i class="fas fa-hand-peace"></i><p>Pacícifas</p></h3>
-      <h3><i class="fas fa-paint-brush"></i><p>Cambian de color</p></h3>
-    </section>
-    <section class="image">
-      <article class="image">
-        <img src="assets/img/iguana-2.jpg" alt="iguana cuerpo">
-      </article>
-      <article class="image">
-        <img src="assets/img/iguana-3.jpg" alt="iguana perfil">
-      </article>
-      <article class="image">
-        <img src="assets/img/iguana-4.jpg" alt="iguana grupo">
-      </article>
-    </section>
-    <footer id="contacto" class="foot">
-      <a href="http://www.anipedia.net/iguanas/iguana-verde" target="_blank"><p>Visita http://www.anipedia.net/iguanas/iguana-verde/ para conocer más</p></a>
+    <footer class="text-center text-secondary my-4">
+      <img src="assets/img/logo-black.png" alt="Cuppon Logo" width="100">
+      <p class="mt-2 mb-0"><i class="far fa-copyright fa-xs px-1"></i>2018 Cuppon Latam. Todos los </p>
+      <p>derechos reservados</p>
     </footer>
   </body>
 </html>
