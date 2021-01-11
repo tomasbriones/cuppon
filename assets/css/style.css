@@ -1,44 +1,67 @@
 body {
-  font-family: 'Roboto ', sans-serif;
+  text-align: center;
+  color:#ffffff;
+  background: #000000;
+  margin: auto;
+  font-family: 'Raleway';
 }
-.success {
-  background:#28a745;
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
-header {
-  margin-top: 6rem;
+h1  {
+  font-weight: 300;
+  font-size: 3em;
+  margin:0.1em;
 }
-
-span, .card-text {
-  color: #707070;
-}
-.card-title {
-  color:#212529;
-}
-h4 {
-  font-size: 1.2em;
-  font-weight: 500;
-}
-h5 {
+h3 {
+  margin-top: 2rem;
+  padding: 0em 2em 0em 5em;
   font-weight: 300;
 }
-.card {
-  margin: 0 auto;
-  float: none;
-  margin-bottom: 2rem;
+h2 {
+  margin-bottom: 1.5rem;
+  font-weight: 300;
 }
-li {
+.carac-section i {
+  font-size: 2.5em;
+  padding-bottom: 1rem;
+}
+.carac-section, .foot {
+  background: #2a2721;
+  padding: 2.5rem;
+}
+.desc-section {
+  white-space: nowrap;
+  text-align: center;
+  margin: 4em;
+}
+.text-description  {
+  width: 35%;
+  text-align: left;
   vertical-align: middle;
+  white-space: normal;
+  display: inline-block;
+  padding-right: 8em;
+  font-weight: 300;
 }
-.price-green {
-  color: #28a745;
-  font-weight: 600;
-  font-size: 1.3em;
+.desc-image {
+  vertical-align: middle;
+  display: inline-block;
 }
-.card-link+.card-link {
-    margin-left: 0.4rem;
+.text-description * {
+  margin-bottom: 1rem;
 }
-.form-control {
-  margin: 0 auto;
-  float: none;
-  width: 80vw;
+.image {
+  padding: 1.8rem 0.4rem 1.8rem 0.4rem;
+}
+.image , h3 {
+  display: inline-block;
+}
+a:link{
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
 }
